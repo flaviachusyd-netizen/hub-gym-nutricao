@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Hub de Performance</title>
+    <title>Painel de Performance</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f9; padding: 20px; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        h1 { color: #333; font-size: 1.5rem; }
-        .stat { font-size: 1.2rem; font-weight: bold; color: #007bff; }
+        body { background-color: #121212; color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px; }
+        .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: #1e1e1e; padding: 20px; border-radius: 10px; border: 1px solid #333; }
+        h1 { color: #ccff00; }
+        .metric { font-size: 2em; font-weight: bold; }
+        .label { color: #888; font-size: 0.9em; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Dashboard de Performance</h1>
-        <p>Data: 16/06/2026</p>
-        <p>Gasto Cal?rico Garmin: <span class="stat">251 kcal</span></p>
-        <p>Status: <span style="color: #d9534f;">Recupera??o (Dor lombar)</span></p>
+    <h1>PAINEL DE PERFORMANCE</h1>
+    <div class="dashboard">
+        <div class="card">
+            <div class="label">Calorias Queimadas</div>
+            <div class="metric">760 <small>kcal</small></div>
+        </div>
+        <div class="card">
+            <div class="label">Calorias Consumidas</div>
+            <div class="metric">2.320 <small>kcal</small></div>
+        </div>
+        <div class="card">
+            <div class="label">Saldo Calórico</div>
+            <div class="metric" style="color: #ccff00;">+1.560</div>
+        </div>
     </div>
 </body>
 </html>
