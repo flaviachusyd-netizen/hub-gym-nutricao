@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Hub de Performance</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f9; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1 { color: #333; font-size: 1.5rem; }
+        .stat { font-size: 1.2rem; font-weight: bold; color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Dashboard de Performance</h1>
+        <p>Data: 16/06/2026</p>
+        <p>Gasto Cal?rico Garmin: <span class="stat">251 kcal</span></p>
+        <p>Status: <span style="color: #d9534f;">Recupera??o (Dor lombar)</span></p>
+    </div>
+</body>
+</html>
